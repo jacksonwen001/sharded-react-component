@@ -1,5 +1,2 @@
-
 import './index.css'
-export * from './components/ui/accordion'
-export * from './components/ui/badge'
-
+export { Button, buttonVariants } from "./components/ui/button";
