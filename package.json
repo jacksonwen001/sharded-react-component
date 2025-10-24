@@ -17,7 +17,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "generate-exports": "node scripts/generate-export.js",
-    "release": "rm -rf dist && npm publish"
+    "release": "rm -rf dist && npm run generate-exports && npm publish"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
